@@ -1,6 +1,6 @@
 # Social-Media_Data-Mining
 
-**CIS 600 Social Media data mining project.**
+**CIS 600 Social Media data mining project**
 
 
 ### Requirements: 
@@ -13,6 +13,7 @@
     - networkx, for installation refer [here](https://networkx.org/documentation/stable/install.html)
     - matplotlib, for installation refer [here](https://matplotlib.org/stable/users/installing/index.html)
     - tweepy, for installation refer [here](https://github.com/tweepy/tweepy)
+    - Jupyter Notebook, for installation refer [here](https://jupyter.org/install)
 - System Requirements :
     - 8GB Ram (minimum)
     - 128GB of Memory (minimum)
@@ -20,7 +21,7 @@
     
 **Note**
 
-It is recommended to use pip3 instead of pip, as pip will have compatability issues with python3
+It is recommended to use pip3 instead of pip, as pip will have compatability issues with python3 <br />
 eg: If the below command doesn't run
 ```
 pip install pandas
@@ -30,7 +31,28 @@ use this command
 ```
 pip3 install pandas
 ```
-    
+
+### Request Code Access, to downlod it form the git hub 
+Run the below command to clone code from github
+```
+git clone https://github.com/shivakumar96/Social-Media_Data-Mining.git
+
+```
+
+### Running the code 
+Start Jupyetr Notebook <br />
+```
+jupyter notebook
+```
+The above comand will run the Jupyter Notebook on the web browser. <br />
+Now, in the Jupyter Notebook browser tab, select the folder where the code resides. <br />
+<br />
+In the options under **cell** select **Run all** to run the entrire code <br />
+or <br />
+select a cell and click **Run** to execute a particular cell.
+
+
+**Note**
 When it comes to executing this project, there are two methods available:
 
 1. Using the pre-extracted dataset that has already been saved in CSV format. This method is faster since it eliminates the need to extract tweets from the Twitter API, which can take a significant amount of time due to the 15-minute delay enforced by Twitter's API policy.
