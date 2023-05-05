@@ -60,6 +60,14 @@ In the options under **cell** select **Run all** to run the entrire code <br />
 or <br />
 select a cell and click **Run** to execute a particular cell.
 
+**If you want to simply run it as a just a python file you can export the code as python code and run it as**
+```
+python3 Project.py
+```
+or depending on your python environment
+```
+python Project.py
+```
 
 ## Note <br />
 
