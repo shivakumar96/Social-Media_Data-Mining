@@ -3,7 +3,7 @@
 **CIS 600 Social Media data mining project**
 
 
-### Requirements: 
+## Requirements: 
 - python3.6.14 or Higher. You can Download from [here](https://www.python.org/downloads/)
 - Modules/libraries :
     - scikitlearn, for installation refer [here](https://scikit-learn.org/stable/install.html)
@@ -20,7 +20,7 @@
     - Intel i7 or Mac M1 processor or higher for fast processing.
 - twitter developer access, for more details refer [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
    
-**Note**
+### Note
 
 It is recommended to use pip3 instead of pip, as pip will have compatability issues with python3 <br />
 eg: If the below command doesn't run
@@ -33,13 +33,13 @@ use this command
 pip3 install pandas
 ```
 
-### Request Code Access, to downlod it form the git hub 
+## Request Code Access, to downlod it form the git hub 
 Run the below command to clone code from github
 ```
 git clone https://github.com/shivakumar96/Social-Media_Data-Mining.git
 ```
 
-### Running the code 
+## Running the code 
 Start Jupyetr Notebook <br />
 ```
 jupyter notebook
@@ -47,6 +47,14 @@ jupyter notebook
 The above comand will run the Jupyter Notebook on the web browser. <br />
 Now, in the Jupyter Notebook browser tab, select the folder where the code resides. <br />
 <br />
+
+Upadte you twitter developer access keys and tokens as shown below 
+```
+CONSUMER_KEY = "<Insert Your Key Here>"
+CONSUMER_SECRET = "<Insert Your Key Here>"
+OAUTH_TOKEN = "<Insert Your Key Here>"
+OAUTH_TOKEN_SECRET = "<Insert Your Key Here>"
+```
 
 In the options under **cell** select **Run all** to run the entrire code <br />
 or <br />
