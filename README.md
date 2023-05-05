@@ -18,7 +18,8 @@
     - 8GB Ram (minimum)
     - 128GB of Memory (minimum)
     - Intel i7 or Mac M1 processor or higher for fast processing.
-    
+- twitter developer access, for more details refer [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
+   
 **Note**
 
 It is recommended to use pip3 instead of pip, as pip will have compatability issues with python3 <br />
@@ -46,17 +47,19 @@ jupyter notebook
 ```
 The above comand will run the Jupyter Notebook on the web browser. <br />
 Now, in the Jupyter Notebook browser tab, select the folder where the code resides. <br />
+```
 <br />
 In the options under **cell** select **Run all** to run the entrire code <br />
 or <br />
 select a cell and click **Run** to execute a particular cell.
+```
 
+## Note <br />
+```
+When it comes to executing this project, there are two methods available:  <br />
 
-**Note**
-When it comes to executing this project, there are two methods available:
+1. Using the pre-extracted dataset that has already been saved in CSV format. This method is faster since it eliminates the need to extract tweets from the Twitter API, which can take a significant amount of time due to the 15-minute delay enforced by Twitter's API policy.  <br />
 
-1. Using the pre-extracted dataset that has already been saved in CSV format. This method is faster since it eliminates the need to extract tweets from the Twitter API, which can take a significant amount of time due to the 15-minute delay enforced by Twitter's API policy.
-
-2. Extracting tweets from Twitter directly and disregarding any saved datasets.
-
+2. Extracting tweets from Twitter directly and disregarding any saved datasets.  <br />
+```
 
