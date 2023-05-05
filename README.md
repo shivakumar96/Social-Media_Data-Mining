@@ -14,10 +14,18 @@
     - matplotlib, for installation refer [here](https://matplotlib.org/stable/users/installing/index.html)
     - tweepy, for installation refer [here](https://github.com/tweepy/tweepy)
 - System Requirements :
-    - 8GB Ram 
-    - 128GB of Memory
-    - Intel i7 or Mac M1 processor or higher.
+    - 8GB Ram (minimum)
+    - 128GB of Memory (minimum)
+    - Intel i7 or Mac M1 processor or higher for fast processing.
     
+**Note**
+```
+#It is recommended to use pip3 instead of pip, as pip will have compatability issues with python3
+#eg:
+pip install pandas
+# if the above command doesn't run below command
+pip3 install pandas
+```
     
 When it comes to executing this project, there are two methods available:
 
