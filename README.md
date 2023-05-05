@@ -19,11 +19,15 @@
     - Intel i7 or Mac M1 processor or higher for fast processing.
     
 **Note**
+
+It is recommended to use pip3 instead of pip, as pip will have compatability issues with python3
+eg: If the below command doesn't run
 ```
-#It is recommended to use pip3 instead of pip, as pip will have compatability issues with python3
-#eg:
 pip install pandas
-# if the above command doesn't run below command
+```
+use this command
+
+```
 pip3 install pandas
 ```
     
