@@ -60,7 +60,7 @@ In the options under **cell** select **Run all** to run the entrire code <br />
 or <br />
 select a cell and click **Run** to execute a particular cell.
 
-**If you want to simply run it as a just a python file you can export the code as python code and run it as**
+**If you want to run just as a python file, you can export the Jupyter notebook as python code, and run it using below command**
 ```
 python3 Project.py
 ```
