@@ -33,7 +33,7 @@ use this command
 pip3 install pandas
 ```
 
-## Request Code Access, to downlod it form the git hub 
+## Request Code Access, to downlod it form the Github 
 Run the below command to clone code from github
 ```
 git clone https://github.com/shivakumar96/Social-Media_Data-Mining.git
