@@ -579,7 +579,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
-from nltk.corpus import stopwords
+
 
 # all tweets of user is one document
 documents = user_tweets.values()
@@ -596,9 +596,11 @@ preprocessed_documents = [preprocess(doc) for doc in documents]
 vectorizer = TfidfVectorizer(stop_words='english')
 X = vectorizer.fit_transform(preprocessed_documents)
 
+#Note ensure that aleast 3 usersers are presnt in the list.
 # Determine the optimal number of clusters using silhouette score
 # vary the range if needed
-n_clusters_range = range(2, 6)
+range_limit = min([6,len(documents)-1])
+n_clusters_range = range(2, range_limit)
 silhouette_scores = []
 
 for n_clusters in n_clusters_range:
@@ -647,7 +649,8 @@ from sklearn.manifold import TSNE
 
 # Perform dimensionality reduction using t-SNE
 #scalar
-tsne = TSNE(n_components=2, perplexity=5, random_state=42)
+perplexity_val = min([5,len(documents)-1])
+tsne = TSNE(n_components=2, perplexity=perplexity_val, random_state=42)
 X_2d = tsne.fit_transform(X.toarray())
 
 print(X_2d)
@@ -680,12 +683,13 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.manifold import TSNE
-from nltk.corpus import stopwords
+
 
 # (Same dataset, preprocess function, feature extraction, and clustering code as before)
 
 # Perform dimensionality reduction using t-SNE
-tsne = TSNE(n_components=3, perplexity=5, random_state=42)
+perplexity_val = min([5,len(documents)-1])
+tsne = TSNE(n_components=3, perplexity=perplexity_val, random_state=42)
 X_3d = tsne.fit_transform(X.toarray())
 
 # Plot the clusters in 3D
