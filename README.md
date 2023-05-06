@@ -18,7 +18,7 @@ The project aims to detect toxic comments made by users on Twitter and determine
     - 8GB Ram (minimum)
     - 128GB of Memory (minimum)
     - Intel i7 or Mac M1 processor or higher for fast processing.
-- twitter developer access, for more details refer [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
+- Twitter developer access, for more details refer [here](https://developer.twitter.com/en/docs/twitter-api/getting-started/getting-access-to-the-twitter-api)
    
 ### Note
 
