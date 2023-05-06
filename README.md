@@ -1,6 +1,6 @@
 # **CIS 600: Social Media Data Mining Project**
 
-## Project: Unmasking Cyberbullying: Classifying comments and Revealing Communities
+## Project: Unmasking Cyberbullying: Classifying Comments and Revealing Communities
 The project aims to detect toxic comments made by users on Twitter and determine if they form a community. It uses NLP and ML algorithms to classify comments and analyze user interactions to identify communities. The objective is to understand better toxic communities on social media, which helps to develop strategies to reduce their impact. The project will provide insights into the spread of toxic behavior and inform efforts to create a safer online environment. In addition, by addressing the issue of toxic comments, the project will contribute to promoting positivity and well-being on social media platforms.
 
 ## Requirements: 
