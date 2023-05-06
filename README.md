@@ -1,4 +1,4 @@
-# **CIS 600 Social Media Data Mining Project**
+# **CIS 600: Social Media Data Mining Project**
 
 ## Project: Unmasking Cyberbullying: Classifying comments and Revealing Communities
 A project focused on detecting users who comment toxic for a tweet in twitter. Then Identifying if these users form a community. 
