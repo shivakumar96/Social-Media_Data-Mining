@@ -1,7 +1,7 @@
-# Social-Media_Data-Mining
+# **CIS 600 Social Media Data Mining Project**
 
-**CIS 600 Social Media data mining project**
-
+## Project: Unmasking Cyberbullying: Classifying comments and Revealing Communities
+A project focused on detecting users who comment toxic for a tweet in twitter. Then Identifying if these users form a community. 
 
 ## Requirements: 
 - python3.6.14 or Higher. You can Download from [here](https://www.python.org/downloads/)
